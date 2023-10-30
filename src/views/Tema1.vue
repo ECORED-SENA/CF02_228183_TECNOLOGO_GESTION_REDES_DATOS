@@ -33,8 +33,9 @@
 
     figure(data-aos="fade-down")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video.    
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/6qtRjdaS36g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video. Historia de las redes de datos
+  
 
 
     Separador
@@ -67,8 +68,9 @@
 
     figure(data-aos="fade-down")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video.
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/Rr8POxBrOlo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video. Conceptos básicos y componentes de una red
+
       
     .row.fondo-tema3.align-items-center.py-4.pb-5
       .col-lg-12.col-12.px-lg-5.px-4
@@ -85,11 +87,11 @@
                 .col-md-4
                   figure
                     img(src='@/assets/curso/temas/t1/tab-img1.png', alt='')
-            .py-4.py-md-5(titulo="Estaciones de trabajo" :icono="require('@/assets/curso/temas/t1/tab-ico2.svg')")
+            .bg-white.py-4.py-md-5(titulo="Estaciones de trabajo" :icono="require('@/assets/curso/temas/t1/tab-ico2.svg')")
               .row.justify-content-center
                 .col-md-7.mb-4.mb-md-0
                   h4.t-acento-contenido Estaciones de trabajo
-                  p Son los nodos finales de una red de computadoras. Normalmente, las estaciones de trabajo permiten a los usuarios ejecutar aplicaciones y almacenar diferentes tipos de información. Sin embargo, una impresora conectada a la red podría verse como un nodo final de ésta y verse como una estación de trabajo, pero con prestaciones diferentes y reducidas comparadas con la de un computador.              
+                  p Son los nodos finales de una red de computadoras. Normalmente, las estaciones de trabajo permiten a los usuarios ejecutar aplicaciones y almacenar diferentes tipos de información. Sin embargo, una impresora conectada a la red podría verse como un nodo final de esta y verse como una estación de trabajo, pero con prestaciones diferentes y reducidas comparadas con la de un computador.              
                 .col-md-4
                   figure
                     img(src='@/assets/curso/temas/t1/tab-img2.png', alt='')
@@ -97,11 +99,11 @@
               .row.justify-content-center
                 .col-md-7.mb-4.mb-md-0
                   h4.t-acento-contenido Tarjeta de acceso a la red
-                  p Es un dispositivo que le permite a todo computador conectarse a la red informática ya sea para conexión cableada o inalámbrica. Cuando se trata de una conexión alámbrica, se habla de una tarjeta de red o NIC (Network Interface Card) por sus siglas en inglés, la cual puede ser insertada directamente en la placa madre por medio de un puerto PCI. Dicha tarjeta trae consigo un conector para cable de red. Por otro lado, las tarjetas de red inalámbricas también pueden ser conectadas a la tarjeta madre por medio del puerto PCI o de manera externa por medio de un puerto USB.              
+                  p Es un dispositivo que le permite a todo computador conectarse a la red informática, ya sea para conexión cableada o inalámbrica. Cuando se trata de una conexión alámbrica, se habla de una tarjeta de red o NIC (#[em Network Interface Card]) por sus siglas en inglés, la cual puede ser insertada directamente en la placa madre por medio de un puerto PCI. Dicha tarjeta trae consigo un conector para cable de red. Por otro lado, las tarjetas de red inalámbricas también pueden ser conectadas a la tarjeta madre por medio del puerto PCI o de manera externa por medio de un puerto USB.              
                 .col-md-4
                   figure
                     img(src='@/assets/curso/temas/t1/tab-img3.png', alt='')
-            .py-4.py-md-5(titulo="Repetidores" :icono="require('@/assets/curso/temas/t1/tab-ico4.svg')")
+            .bg-white.py-4.py-md-5(titulo="Repetidores" :icono="require('@/assets/curso/temas/t1/tab-ico4.svg')")
               .row.justify-content-center
                 .col-md-7.mb-4.mb-md-0
                   h4.t-acento-contenido Repetidor
@@ -109,18 +111,18 @@
                 .col-md-4
                   figure
                     img(src='@/assets/curso/temas/t1/tab-img4.png', alt='')
-            .bg-white.py-4.py-md-5(titulo="Routers" :icono="require('@/assets/curso/temas/t1/tab-ico5.svg')")
+            .bg-white.py-4.py-md-5(titulo="<em>Routers</em>" :icono="require('@/assets/curso/temas/t1/tab-ico5.svg')")
               .row.justify-content-center
                 .col-md-7.mb-4.mb-md-0
-                  h4.t-acento-contenido Router
+                  h4.t-acento-contenido #[em Router]
                   p Es un dispositivo de red encargado de indicar la ruta más adecuada para transmitir el mensaje que ha enviado el transmisor hacia un destino determinado dentro o fuera de la red a la cual pertenecen, utilizando los protocolos adecuados.              
                 .col-md-4
                   figure
                     img(src='@/assets/curso/temas/t1/tab-img5.png', alt='')
-            .bg-white.py-4.py-md-5(titulo="Switch" :icono="require('@/assets/curso/temas/t1/tab-ico6.svg')")
+            .bg-white.py-4.py-md-5(titulo="<em>Switch</em>" :icono="require('@/assets/curso/temas/t1/tab-ico6.svg')")
               .row.justify-content-center
                 .col-md-7.mb-4.mb-md-0
-                  h4.t-acento-contenido Switch
+                  h4.t-acento-contenido #[em Switch]
                   p Es un dispositivo de red que se encarga de interconectar varios segmentos de red, por medio de la dirección MAC de los dispositivos destino de las tramas de red.              
                 .col-md-4
                   figure
@@ -156,7 +158,7 @@
             .b-r12.fondo-slider.row.justify-content-center.align-items-center.p-4.mb-4.bx-sh2(data-aos="fade-down") 
               .col-lg-7
                 h4.t-acento-contenido Medios de transmisión guiados
-                p Están formados por cables que se encargan de guiar las señales de un extremo a otro. Dentro de las características de estos medios están: el tipo de conductor, velocidad máxima de transmisión, distancia máxima ofrecida entre repetidores, inmunidad ante interferencias electromagnéticas, facilidad de instalación y la compatibilidad con varias tecnologías de capa de enlace. Los medios guiados más usados para interconexión en el campo de las telecomunicaciones son: cable de par trenzado, cable coaxial y la fibra óptica
+                p Están formados por cables que se encargan de guiar las señales de un extremo a otro. Dentro de las características de estos medios están: el tipo de conductor, velocidad máxima de transmisión, distancia máxima ofrecida entre repetidores, inmunidad ante interferencias electromagnéticas, facilidad de instalación y la compatibilidad con varias tecnologías de capa de enlace. Los medios guiados más usados para interconexión en el campo de las telecomunicaciones son: cable de par trenzado, cable coaxial y la fibra óptica.
               .col-lg-4
                 SlyderE(indicadores="derecha")
                   .row 
@@ -167,17 +169,17 @@
                     img(src="@/assets/curso/temas/t1/slider1-3.png", alt="")
 
             .b-r12.fondo-slider.row.justify-content-center.align-items-center.p-4.bx-sh2(data-aos="fade-down") 
-              .col-lg-7
+              .col-lg-5
                 h4.t-acento-contenido Medios de transmisión no guiados
                 p Son aquellos que permiten la comunicación sin el uso de cables o conductores físicos. Las señales electromagnéticas se irradian a través del espacio libre y están disponibles para cualquier usuario con un dispositivo inalámbrico. Para estos medios, es necesario el uso de antenas tanto para transmitir como para recibir las señales. Los medios no guiados más utilizados son: las ondas de radio, las microondas y el infrarrojo.
-              .col-lg-4
+              .col-lg-6
                 SlyderE(indicadores="derecha")
+                  .row
+                    img(src="@/assets/curso/temas/t1/slider2-1.svg", alt="")
+                  .row
+                    img(src="@/assets/curso/temas/t1/slider2-2.svg", alt="")
                   .row 
-                    img(src="@/assets/curso/temas/t1/slider2-1.png", alt="")
-                  .row 
-                    img(src="@/assets/curso/temas/t1/slider2-2.png", alt="")
-                  .row 
-                    img(src="@/assets/curso/temas/t1/slider2-3.png", alt="")
+                    img(src="@/assets/curso/temas/t1/slider2-3.svg", alt="")
 
 
     Separador
@@ -188,12 +190,12 @@
 
     .row.justify-content-center.align-items-center
       .col-md-7.mb-4.mb-md-0
-        p Para que los ordenadores se comuniquen, primero es necesario conocer las normas que permiten esta comunicación; en otras palabras, qué protocolo de comunicación utilizan. Según Stallings, Tanenbaum y Stevens (2000), un protocolo de red es un conjunto de reglas que determina la forma de identificarse, transmitir información y procesar los datos en la red. Los protocolos pueden ser de tipo hardware (como las tarjetas de red), software (como los drivers) o una combinación de ambos.
+        p Para que los ordenadores se comuniquen, primero es necesario conocer las normas que permiten esta comunicación; en otras palabras, qué protocolo de comunicación utilizan. Según Stallings, Tanenbaum y Stevens (2000), un protocolo de red es un conjunto de reglas que determina la forma de identificarse, transmitir información y procesar los datos en la red. Los protocolos pueden ser de tipo #[em hardware] (como las tarjetas de red), #[em software] (como los #[em drivers]) o una combinación de ambos.
         p Existen diversos protocolos, y cada uno está asociado a una capa específica del modelo OSI. Algunos de ellos son:
       .col-md-5
         .cajon.color-acento-contenido.p-4.mb-4
           p.mb-0 Capa 1: CGI. MIME, IEEE
-          p.mb-0 Capa 2: Ethernet
+          p.mb-0 Capa 2: #[em Ethernet]
           p.mb-0 Capa 3: Protocolo de internet IP
           p.mb-0 Capa 4: Protocolo de control de Transmisión TCP, UDP
           p.mb-0 Capa 5: NetBIOS
@@ -303,7 +305,7 @@
                       span.mb-0 #[b #[em Full-Duplex]:] en este modo, la información se transmite en ambos sentidos de manera simultánea. Un ejemplo de este tipo de transmisión son los teléfonos móviles.
                 .col-md-4
                   .titulo-sexto.color-acento-contenido.mb-3
-                    p.mb-0 Full-Dúplex
+                    p.mb-0 #[em Full-Dúplex]
                   img(src='@/assets/curso/temas/t1/tab2-img5.svg', alt='')
             .bg-white.bx-sh1.py-4.py-md-5(titulo="Por grado de difusión")
               .row.justify-content-around.align-items-center
@@ -344,7 +346,7 @@
               img(src='@/assets/curso/temas/t1/acord-img2.svg', alt='')
           .row(titulo="ESTRELLA")
             .col-md-7.mb-4.mb-md-0
-              p Todos los dispositivos de la red se conectan a un dispositivo central, conocido como nodo, que se encarga de gestionar las comunicaciones entre los terminales o usuarios
+              p Todos los dispositivos de la red se conectan a un dispositivo central, conocido como nodo, que se encarga de gestionar las comunicaciones entre los terminales o usuarios.
             .col-md-5
               img(src='@/assets/curso/temas/t1/acord-img3.svg', alt='')
 
@@ -394,14 +396,14 @@
                   img(src='@/assets/curso/temas/t1/fig2.svg', alt='La figura representa estructura de comunicaciones de red se segmenta en niveles que abordan desde la encapsulación de paquetes IP hasta la entrega de mensajes en formatos específicos, como HTML.')
 
     
-    p(data-aos="fade") Iniciando los años ochenta, la Organización Internacional para la Estandarización (ISO, International Standards Organization) desarrolla el modelo de referencia para interconectar sistemas abiertos (OSI, Open Systems Interconnect) para normalizar la manera de comunicarse entre dispositivos de la red. El modelo es importante por el gran paso hacia la interoperabilidad entre dispositivos de red.
+    p(data-aos="fade") Iniciando los años ochenta, la Organización Internacional para la Estandarización (ISO, #[em International Standards Organization]) desarrolla el modelo de referencia para interconectar sistemas abiertos (OSI, #[em Open Systems Interconnect]) para normalizar la manera de comunicarse entre dispositivos de la red. El modelo es importante por el gran paso hacia la interoperabilidad entre dispositivos de red.
     
     p.mb-4(data-aos="fade") El modelo OSI enmarca las comunicaciones de red en siete diferentes capas así: 
 
     .row.justify-content-center.mb-4
       .col-lg-5(data-aos="fade-down")
         .titulo-sexto.color-acento-contenido.mb-3
-          p.mb-0 #[b Figura 3.] CComunicación en red.
+          p.mb-0 #[b Figura 3.] Comunicación en red.
         figure
           img(src='@/assets/curso/temas/t1/fig3.svg', alt='La figura representa las comunicaciones de red estas se dividen en niveles: Física, enlace de datos, red, transporte, sesión presentación y aplicación.')
 

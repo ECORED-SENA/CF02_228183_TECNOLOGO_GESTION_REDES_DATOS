@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1 Tecnologías y conceptos básicos de Networking
+      h1 Tecnologías y conceptos básicos de #[em Networking]
 
     .row.align-items-center.mb-5(data-aos="fade")
       .col-lg-1.col-md-2.col-3.mb-3.mb-md-0
@@ -15,11 +15,11 @@
 
     figure.mb-5(data-aos="fade-down")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video.
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/0mbw-CgmkEA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video. Tecnologías y conceptos básicos de #[em Networking]
 
     .bg-5.p-2.px-4.b-r4.w-fit.mb-4(data-aos="fade") 
-      h3.text-white.mb-0 Conceptos básicos Networking
+      h3.text-white.mb-0 Conceptos básicos #[em Networking]
 
     p.mb-4(data-aos="fade") Se puede definir como un sistema de apoyo para compartir información y servicios entre usuarios, dispositivos, terminales y grupos de trabajo que pertenecen a redes comunes o independientes. A continuación, se abordan los conceptos básicos de #[em Networking].
 

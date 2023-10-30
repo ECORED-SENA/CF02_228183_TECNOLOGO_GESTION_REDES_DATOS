@@ -93,7 +93,7 @@
                 img(src='@/assets/curso/temas/t3/fig7.svg', alt='El diagrama muestra un sistema de cableado estructurado para telecomunicaciones. Este sistema establece normas para organizar el cableado. Sus componentes clave incluyen la sala de telecomunicaciones con equipos como paneles de parcheo y switches, puntos de red para conectar dispositivos, como computadoras, y dos tipos de cables: vertical (fibra óptica) que conecta con el proveedor de Internet y horizontal (UTP) que llega a los puntos de red. El sistema permite una transmisión eficiente de datos entre estaciones de trabajo y la red. La fibra óptica ofrece alta velocidad y seguridad, mientras que el UTP es económico pero susceptible a interferencias.')
           .row(numero="e" titulo="Especificación del centro de cableado (SITE)")
             .col-12
-              p En este caso se debe determinar los equipos que servirán de conexión para los terminales o elementos componentes de la red y en especial de la red LAN, considerando la tecnología y protocolo de la misma a que en la mayoría de casos es Ethernet. Aquí se define la velocidad de los switches que pueden ser 100 o 1000 Mbps y así determinar su modo de funcionamiento. Este dispositivo estaría conectado a un router o un servidor de red el cual permite que los paquetes que salgan de la red LAN y tengan destino la red WAN, viajen a través de él y con su dirección IP, podrán acceder a los servicios y aplicaciones ofrecidas por la red WAN, como Internet, páginas específicas, bases de datos, y en general todos los servicios que se ofrecen  a la red.
+              p En este caso se debe determinar los equipos que servirán de conexión para los terminales o elementos componentes de la red y en especial de la red LAN, considerando la tecnología y protocolo de la misma a que en la mayoría de casos es Ethernet. Aquí se define la velocidad de los switches que pueden ser 100 o 1000 Mbps y así determinar su modo de funcionamiento. Este dispositivo estaría conectado a un #[em router] o un servidor de red, el cual permite que los paquetes que salgan de la red LAN y tengan destino la red WAN, viajen a través de él y con su dirección IP, podrán acceder a los servicios y aplicaciones ofrecidas por la red WAN, como Internet, páginas específicas, bases de datos, y en general todos los servicios que se ofrecen  a la red.
           .row(numero="f" titulo="Organismos certificadores")
             .col-12
               p Entre los principales organismos están ISO e IEEE, quienes proporcionan a los fabricantes un conjunto de estándares que aseguran mayor compatibilidad e interoperabilidad entre los diferentes tipos de tecnología de red producidos por las empresas a nivel mundial.
@@ -105,7 +105,7 @@
     .titulo-segundo.color-acento-contenido(data-aos="fade") 
       h2 3.3 Configuración y pruebas de la red
 
-    p.mb-4(data-aos="fade") Así como las computadoras no pueden trabajar sin un sistema operativo lo mismo pasa con un router o un switch. El sistema operativo internetwork (IOS) de cisco es el software en dispositivos Cisco IOS (#[em Internetwork Operating System]). El Cisco IOS proporciona los siguientes servicios:
+    p.mb-4(data-aos="fade") Así como las computadoras no pueden trabajar sin un sistema operativo lo mismo pasa con un #[em router] o un #[em switch]. El sistema operativo #[em internetwork] (IOS) de cisco es el software en dispositivos Cisco IOS (#[em Internetwork Operating System]). El Cisco IOS proporciona los siguientes servicios:
 
     .row.justify-content-center.mb-5(data-aos="fade-down") 
       .col-lg-9
@@ -125,7 +125,7 @@
                   i.fas.fa-chevron-right
                   span.mb-0 Escalabilidad de la red #[em Command line interface] (CLI)
 
-    p.mb-4(data-aos="fade") El archivo en IOS tiene un tamaño en varios megabytes y se encuentra en una memoria semipermanente llamada flash. Esta memoria provee almacenamiento no volátil, también permite que se actualice IOS a versiones más nuevas o que se incorporen nuevas funciones, entre las que se pueden destacar:  
+    p.mb-4(data-aos="fade") El archivo en IOS tiene un tamaño en varios #[em megabytes] y se encuentra en una memoria semipermanente llamada #[em flash]. Esta memoria provee almacenamiento no volátil, también permite que se actualice IOS a versiones más nuevas o que se incorporen nuevas funciones, entre las que se pueden destacar:  
 
     .row.justify-content-center.mb-3
       .col-lg-4.col-9.col-md-6.mb-4(data-aos="fade-right")
@@ -143,13 +143,13 @@
             span.mb-0 #[em Telnet]/ SSH.
           li.mb-4
             i.fas.fa-chevron-right
-            span.mb-0 #[b Puerto auxiliar:] los dispositivos de red dependen de 2 tipos de software para su funcionamiento.
+            span.mb-0 #[b Puerto auxiliar:] los dispositivos de red dependen de 2 tipos de #[em software] para su funcionamiento.
           li.mb-4
             i.fas.fa-chevron-right
             span.mb-0 #[b El sistema operativo:] facilita la operación básica de los componentes de #[em hardware] del dispositivo.
           li.mb-0
             i.fas.fa-chevron-right
-            span.mb-0 #[b La configuración:] contienen los comandos del software IOS de cisco utilizados para personalizar la funcionalidad de un dispositivo Cisco. (los comandos son analizados el #[em software] IOS de Cisco) Archivos de Configuración:
+            span.mb-0 #[b La configuración:] contienen los comandos del #[em software] IOS de cisco utilizados para personalizar la funcionalidad de un dispositivo Cisco. (los comandos son analizados el #[em software] IOS de Cisco) Archivos de Configuración:
             li.ps-3
               | Archivo de configuración en ejecución. #[br]
               | Archivo de configuración de inicio MODOS CISCO IOS.

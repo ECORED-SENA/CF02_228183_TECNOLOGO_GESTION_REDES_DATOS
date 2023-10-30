@@ -93,7 +93,7 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tecnologías y conceptos básicos de Networking',
+        titulo: 'Tecnologías y conceptos básicos de <em>Networking</em>',
         desarrolloContenidos: true,
       },
       {
@@ -167,14 +167,14 @@ export default {
   },
   complementario: [
     {
-      tema: '',
+      tema: '3.2 Cableado estructurado',
       referencia:
         'Joskowicz, J. (2013). Cableado Estructurado. Universidad de la República Montevideo, URUGUAY.',
       tipo: 'PDF',
       descarga: '/downloads/Anexo1.pdf',
     },
     {
-      tema: '',
+      tema: '3.3 Configuración y pruebas de la red',
       referencia:
         'Pérez, E. H. (2003). Tecnologías y redes de transmisión de datos. Editorial Limusa.',
       tipo: 'E-libro',
@@ -337,7 +337,7 @@ export default {
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: 'Camilo Andrés Bolaño Rey',
+          nombre: 'Daniela Muñoz Bedoya',
           cargo: 'Locución',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',

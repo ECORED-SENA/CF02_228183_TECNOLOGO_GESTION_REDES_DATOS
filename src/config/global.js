@@ -151,7 +151,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/prueba.pdf',
+        download: 'downloads/228183_CF02_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -291,25 +291,8 @@ export default {
             'Centro de Diseño e innovación tecnológica industrial - Regional Antioquia',
         },
         {
-          nombre: 'Claudia López Arboleda',
-          cargo: 'Experto Temático',
-          centro:
-            'Centro de Teleinformática y producción Industrial - Regional Cauca',
-        },
-        {
-          nombre: 'Silvia Milena Sequeda Cárdenas',
-          cargo: 'Diseñadora Instruccional',
-          centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
-        },
-        {
           nombre: 'Ana Catalina Córdoba Sus',
           cargo: 'Revisora Metodológica y Pedagógica',
-          centro:
-            'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital ',
-        },
-        {
-          nombre: 'Sandra Patricia  Hoyos Sepúlveda',
-          cargo: 'Revisión y corrección de estilo',
           centro:
             'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital ',
         },

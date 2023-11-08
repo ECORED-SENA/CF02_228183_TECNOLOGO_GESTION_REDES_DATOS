@@ -151,7 +151,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/228183_CF02_DU.pdf',
+        download: 'downloads/228183_CF02_DU.zip',
       },
       {
         icono: 'fas fa-download',
@@ -289,6 +289,12 @@ export default {
           cargo: 'Experto Temático',
           centro:
             'Centro de Diseño e innovación tecnológica industrial - Regional Antioquia',
+        },
+        {
+          nombre: 'Claudia López Arboleda',
+          cargo: 'Experto Temático',
+          centro:
+            'Centro de Teleinformática y producción Industrial - Regional Cauca',
         },
         {
           nombre: 'Ana Catalina Córdoba Sus',

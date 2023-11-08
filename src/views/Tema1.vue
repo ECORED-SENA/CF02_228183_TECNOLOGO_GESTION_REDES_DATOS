@@ -107,7 +107,7 @@
               .row.justify-content-center
                 .col-md-7.mb-4.mb-md-0
                   h4.t-acento-contenido Repetidor
-                  p Se trata de un dispositivo electrónico capaz de transmitir una señal recibida de bajo nivel y re transmitirla a más alto nivel, permitiendo con esto cubrir distancias largas sin que haya degradación considerable de la señal. En los inicios de la telegrafía se utilizó para regenerar las señales telegráficas.               
+                  p Se trata de un dispositivo electrónico capaz de transmitir una señal recibida de bajo nivel y retransmitirla a más alto nivel, permitiendo con esto cubrir distancias largas sin que haya degradación considerable de la señal. En los inicios de la telegrafía se utilizó para regenerar las señales telegráficas.               
                 .col-md-4
                   figure
                     img(src='@/assets/curso/temas/t1/tab-img4.png', alt='')
@@ -131,7 +131,7 @@
               .row.justify-content-center
                 .col-md-7.mb-4.mb-md-0
                   h4.t-acento-contenido Cableado
-                  p Se trata del medio físico utilizado para la conexión de los dispositivos hacia la red en la cual solicitarán los servicios dependiendo de los requerimientos de longitud, velocidad entre otros.              
+                  p Se trata del medio físico utilizado para la conexión de los dispositivos hacia la red en la cual solicitarán los servicios dependiendo de los requerimientos de longitud, velocidad, entre otros.              
                 .col-md-4
                   figure
                     img(src='@/assets/curso/temas/t1/tab-img7.png', alt='')
@@ -139,7 +139,7 @@
               .row.justify-content-center
                 .col-md-11
                   h4.t-acento-contenido Protocolo
-                  p.mb-4 Es el elemento software de la red, encargado de establecer los parámetros de comunicación entre dispositivos, habilitar mecanismos de identificación de los equipos y usuarios en la red, definir el formato de la información que circula en la red.               
+                  p.mb-4 Es el elemento #[em software] de la red, encargado de establecer los parámetros de comunicación entre dispositivos, habilitar mecanismos de identificación de los equipos y usuarios en la red, definir el formato de la información que circula en la red.               
                 .col-md-8
                   figure
                     img(src='@/assets/curso/temas/t1/tab-img8.svg', alt='')
@@ -430,7 +430,7 @@
     .titulo-segundo.color-acento-contenido(data-aos="fade") 
       h2 1.8 Tecnología #[em Ethernet]
 
-    p Es una serie de estándares establecidos para la implementación de redes de área local o LAN. Para Forouzan (2002), se caracteriza por ser más estable, confiable y rápida en la transmisión de datos, ya que la interferencia con otros dispositivos de la misma red es mínima. Otra ventaja que presenta esta serie de estándares es la velocidad de transmisión pues puede ser del orden de los 100 Gbit/s. Para poder implementar una red tipo #[em Ethernet] es necesario contar con una serie de dispositivos que cumplen diferentes funciones. Algunos de ellos son: enrutadores, #[em switches], cables UTP, #[em bridges], entre otros.
+    p Es una serie de estándares establecidos para la implementación de redes de área local o LAN. Para Forouzan (2002), se caracteriza por ser más estable, confiable y rápida en la transmisión de datos, ya que la interferencia con otros dispositivos de la misma red es mínima. Otra ventaja que presenta esta serie de estándares es la velocidad de transmisión, pues puede ser del orden de los 100 Gbit/s. Para poder implementar una red tipo #[em Ethernet] es necesario contar con una serie de dispositivos que cumplen diferentes funciones. Algunos de ellos son: enrutadores, #[em switches], cables UTP, #[em bridges], entre otros.
 
     .row.fondo-tema2.align-items-center.py-4.mb-5
       .col-lg-12.col-12.px-lg-5.px-4

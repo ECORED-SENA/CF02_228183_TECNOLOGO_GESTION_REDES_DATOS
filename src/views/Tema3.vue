@@ -15,7 +15,7 @@
         .bg-2.h-100.p-4.p-lg-5
           .bg-white.p-4
             p Para implementar una red LAN es indispensable definir un buen diseño acompañado de una excelente arquitectura de red de área local para, entre otros aspectos necesarios, poder garantizar la disponibilidad, fiabilidad e integridad de la información y por supuesto la seguridad ante posibles ataques.
-            p.mb-0 Esta temática debe incluir el análisis de requerimientos de la red, las características que debe incorporar la arquitectura propuesta para este caso de cableado estructurado, el montaje y funcionamiento que comprende configuración y pruebas a los diversos componentes #[em hardware] y #[em software] de la red.
+            p.mb-0 Esta temática debe incluir el análisis de requerimientos de la red, las características que debe incorporar la arquitectura propuesta para este caso de cableado estructurado, el montaje y funcionamiento que comprende configuración y pruebas a los diversos componentes, #[em hardware] y #[em software] de la red.
     
     
     Separador
@@ -70,10 +70,10 @@
               ul.lista-ul--color.fa-ul.ps-3.ps-md-4.mb-0
                 li.mb-1
                   i.fas.fa-chevron-right
-                  | Planificación de los requisitos de hardware y la topología de red.
+                  span.mb-0 Planificación de los requisitos de #[em hardware] y la topología de red.
                 li.mb-1 
                   i.fas.fa-chevron-right
-                  | Determinación de las direcciones IP, nombres de Host y servicios de nombres a utilizar en la red.
+                  span.mb-0 Determinación de las direcciones IP, nombres de #[em Host] y servicios de nombres a utilizar en la red.
                 li.mb-1 
                   i.fas.fa-chevron-right
                   | Establecimiento de subdivisiones administrativas y estrategia de subredes.
@@ -85,7 +85,7 @@
               p Aquí debemos referirnos a los mecanismos y controles de seguridad dentro y alrededor del centro de cableado como también los medios de acceso remoto del mismo; que se deben implementar para proteger el #[em hardware] y medios de almacenamiento de datos. Algunos de los problemas de seguridad física que se pueden tener serían: desastres naturales, incendios, inundaciones, picos, ruidos electromagnéticos, entre otros. 
           .row.justify-content-center(numero="d" titulo="Planificación del cableado estructurado")
             .col-12
-              p Para esta planificación se debe tener en cuenta, dos componentes muy importantes: el Backbone y el cableado horizontal. El Backbone es la principal conexión troncal de Internet o columna vertebral en la red de área local que cumple la norma de cableado estructurado y se construye en fibra óptica. El cableado horizontal es la parte del sistema de telecomunicaciones que va desde el área de trabajo al cuarto de telecomunicaciones. Contiene las salidas de telecomunicaciones en el área de trabajo, cables y conectores de transición entre las salidas y el cuarto de telecomunicaciones, los patch panels y cables de empalme para configurar las conexiones de cableado horizontal en el cuarto de telecomunicaciones.
+              p Para esta planificación se debe tener en cuenta, dos componentes muy importantes: el #[em Backbone] y el cableado horizontal. El #[em Backbone] es la principal conexión troncal de Internet o columna vertebral en la red de área local que cumple la norma de cableado estructurado y se construye en fibra óptica. El cableado horizontal es la parte del sistema de telecomunicaciones que va desde el área de trabajo al cuarto de telecomunicaciones. Contiene las salidas de telecomunicaciones en el área de trabajo, cables y conectores de transición entre las salidas y el cuarto de telecomunicaciones, los #[em patch panels] y cables de empalme para configurar las conexiones de cableado horizontal en el cuarto de telecomunicaciones.
             .col-lg-8 
               .titulo-sexto.color-acento-contenido.mb-3
                 p.mb-0 #[b Figura 7.] Sistemas de Cableado Estructurado
@@ -93,10 +93,10 @@
                 img(src='@/assets/curso/temas/t3/fig7.svg', alt='El diagrama muestra un sistema de cableado estructurado para telecomunicaciones. Este sistema establece normas para organizar el cableado. Sus componentes clave incluyen la sala de telecomunicaciones con equipos como paneles de parcheo y switches, puntos de red para conectar dispositivos, como computadoras, y dos tipos de cables: vertical (fibra óptica) que conecta con el proveedor de Internet y horizontal (UTP) que llega a los puntos de red. El sistema permite una transmisión eficiente de datos entre estaciones de trabajo y la red. La fibra óptica ofrece alta velocidad y seguridad, mientras que el UTP es económico pero susceptible a interferencias.')
           .row(numero="e" titulo="Especificación del centro de cableado (SITE)")
             .col-12
-              p En este caso se debe determinar los equipos que servirán de conexión para los terminales o elementos componentes de la red y en especial de la red LAN, considerando la tecnología y protocolo de la misma a que en la mayoría de casos es Ethernet. Aquí se define la velocidad de los switches que pueden ser 100 o 1000 Mbps y así determinar su modo de funcionamiento. Este dispositivo estaría conectado a un #[em router] o un servidor de red, el cual permite que los paquetes que salgan de la red LAN y tengan destino la red WAN, viajen a través de él y con su dirección IP, podrán acceder a los servicios y aplicaciones ofrecidas por la red WAN, como Internet, páginas específicas, bases de datos, y en general todos los servicios que se ofrecen  a la red.
+              p En este caso se debe determinar los equipos que servirán de conexión para los terminales o elementos componentes de la red y en especial de la red LAN, considerando la tecnología y protocolo de la misma a que en la mayoría de casos es #[em Ethernet]. Aquí se define la velocidad de los switches que pueden ser 100 o 1000 Mbps y así determinar su modo de funcionamiento. Este dispositivo estaría conectado a un #[em router] o un servidor de red, el cual permite que los paquetes que salgan de la red LAN y tengan destino la red WAN, viajen a través de él y con su dirección IP, podrán acceder a los servicios y aplicaciones ofrecidas por la red WAN, como Internet, páginas específicas, bases de datos, y en general todos los servicios que se ofrecen  a la red.
           .row(numero="f" titulo="Organismos certificadores")
             .col-12
-              p Entre los principales organismos están ISO e IEEE, quienes proporcionan a los fabricantes un conjunto de estándares que aseguran mayor compatibilidad e interoperabilidad entre los diferentes tipos de tecnología de red producidos por las empresas a nivel mundial.
+              p Entre los principales organismos están ISO y IEEE, quienes proporcionan a los fabricantes un conjunto de estándares que aseguran mayor compatibilidad e interoperabilidad entre los diferentes tipos de tecnología de red producidos por las empresas a nivel mundial.
 
 
     Separador
@@ -105,7 +105,7 @@
     .titulo-segundo.color-acento-contenido(data-aos="fade") 
       h2 3.3 Configuración y pruebas de la red
 
-    p.mb-4(data-aos="fade") Así como las computadoras no pueden trabajar sin un sistema operativo lo mismo pasa con un #[em router] o un #[em switch]. El sistema operativo #[em internetwork] (IOS) de cisco es el software en dispositivos Cisco IOS (#[em Internetwork Operating System]). El Cisco IOS proporciona los siguientes servicios:
+    p.mb-4(data-aos="fade") Así como las computadoras no pueden trabajar sin un sistema operativo, lo mismo pasa con un #[em router] o un #[em switch]. El sistema operativo #[em internetwork] (IOS) de cisco es el #[em software] en dispositivos Cisco IOS (#[em Internetwork Operating System]). El Cisco IOS proporciona los siguientes servicios:
 
     .row.justify-content-center.mb-5(data-aos="fade-down") 
       .col-lg-9
@@ -123,7 +123,7 @@
                   | Acceso confiable y seguro a recursos en red.
                 li.mb-0
                   i.fas.fa-chevron-right
-                  span.mb-0 Escalabilidad de la red #[em Command line interface] (CLI)
+                  span.mb-0 Escalabilidad de la red #[em Command line interface] (CLI).
 
     p.mb-4(data-aos="fade") El archivo en IOS tiene un tamaño en varios #[em megabytes] y se encuentra en una memoria semipermanente llamada #[em flash]. Esta memoria provee almacenamiento no volátil, también permite que se actualice IOS a versiones más nuevas o que se incorporen nuevas funciones, entre las que se pueden destacar:  
 

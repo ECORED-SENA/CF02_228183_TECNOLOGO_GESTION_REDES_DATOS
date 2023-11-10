@@ -300,7 +300,7 @@ export default {
           nombre: 'Ana Catalina Córdoba Sus',
           cargo: 'Revisora Metodológica y Pedagógica',
           centro:
-            'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital ',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Paola Alexandra Moya Peralta',
@@ -326,7 +326,7 @@ export default {
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: 'Daniela Muñoz Bedoya',
+          nombre: 'Camilo Andrés Bolaño Rey',
           cargo: 'Locución',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
